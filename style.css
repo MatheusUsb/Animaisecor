@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f7;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-image: url('background-nature.jpg');
+    background-size: cover;
+}
+
+h1 {
+    color: #2c5e1a;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+select, button {
+    font-size: 1em;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.modal {
+    font-family: 'Arial', sans-serif;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+}
+
+.close:hover {
+    color: #000;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px;
+    margin: 5px 0;
+    background-color: #e2f7e1;
+    border-radius: 5px;
+}

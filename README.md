@@ -1,26 +1,20 @@
-# Animaisecor
-# Neste exemplo, a função listar_animais_por_cor recebe uma cor como parâmetro e retorna uma lista de animais associados àquela cor
+# Animais e Cores
 
-def listar_animais_por_cor(cor):
-    animais = {
-        'azul': ['pavão', 'arara', 'peixe-palhaço'],
-        'branco': ['cisne', 'coelho', 'polar urso'],
-        'amarelo': ['leão', 'tigre', 'girafa']
-    }
-    
-    if cor in animais:
-        return animais[cor]
-    else:
-        return []
+Este é um projeto que lista animais associados a diferentes cores. Você pode escolher uma cor e ver quais animais estão associados a ela.
 
-cor_escolhida = input("Escolha uma cor (azul, branco ou amarelo): ")
+## Como usar
 
-animais_da_cor = listar_animais_por_cor(cor_escolhida)
+1. Abra o arquivo `index.html` em um navegador da web.
+2. Selecione uma cor na lista suspensa.
+3. Clique no botão "Escolher cor e listar animais".
+4. Uma janela modal será exibida com uma lista de animais associados à cor selecionada.
 
-if animais_da_cor:
-    print("Animais que são da cor", cor_escolhida + ":")
-    for animal in animais_da_cor:
-        print(animal)
-else:
-    print("Desculpe, não há animais associados à cor", cor_escolhida)
+## Cores disponíveis
 
+- Azul: pavão, arara, peixe-palhaço
+- Branco: cisne, coelho, urso polar
+- Amarelo: leão, tigre, girafa
+
+Espero que este projeto seja útil para você! 
+
+Aprenda sobre o JavaScript utilizado neste projeto aqui: [AULA.txt](AULA.txt)
