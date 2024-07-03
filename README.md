@@ -17,4 +17,4 @@ Este é um projeto que lista animais associados a diferentes cores. Você pode e
 
 Espero que este projeto seja útil para você! 
 
-Aprenda sobre o JavaScript utilizado neste projeto aqui: [AULA.txt](AULA.txt)
+Aprenda sobre o JavaScript utilizado neste projeto aqui: [AULA.md](AULA.md)
